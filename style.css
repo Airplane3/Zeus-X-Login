@@ -15,6 +15,7 @@ min-height:100vh;
 background: url('test2.jpg') no-repeat;
 background-size: cover;
 background-position: center;
+cursor: url('icons8-cursor-48.png'), auto;
 }
 
 header{
@@ -32,9 +33,10 @@ z-index: 99;
 }
 
 .logo  {
-
+size: 3px;
 font-size: 2em;
 color: #fff;
+cursor: pointer;
 user-select: none;
 }
 
@@ -260,14 +262,14 @@ font-weight: 500;
 
 .login-register {
 font-size: .9em;
-color: #162938;
+color: lightgray;
 text-align: center;
 font-weight: 500;
 margin: 25px 0 10px;
 }
 
 .login-register p a {
-color: #162938;
+color: lightgray;
 text-decoration: none;
 font-weight: 600;
 }
